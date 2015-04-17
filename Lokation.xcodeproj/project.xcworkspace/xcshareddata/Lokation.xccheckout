@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EACBB161-43D0-4162-AA8F-F61106B02B5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lokation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</key>
+		<string>https://github.com/ClintAkins/CF-iOS-ACC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>4-Lokation/Lokation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ClintAkins/CF-iOS-ACC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CFAcc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

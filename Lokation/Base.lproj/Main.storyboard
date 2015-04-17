@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EqB-RY-HdB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lokation-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ODY-b4-pft">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="531"/>
+                            </mapView>
+                            <view alpha="0.89999999999999991" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOQ-mW-jw9">
+                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-pU-fAT">
+                                        <rect key="frame" x="170" y="20" width="60" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Prv-5H-Enn"/>
+                                            <constraint firstAttribute="width" constant="60" id="t9H-Uc-Rnu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <state key="normal" title="Surf">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="surfButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="keP-EB-32L"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tL-We-AhF">
+                                        <rect key="frame" x="270" y="20" width="60" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Gh7-YB-ed2"/>
+                                            <constraint firstAttribute="height" constant="30" id="aZV-Tg-WsX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <state key="normal" title="Home">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nal-gN-S5v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4be-Ky-Grd">
+                                        <rect key="frame" x="370" y="20" width="60" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="b6n-0q-jho"/>
+                                            <constraint firstAttribute="height" constant="30" id="bKQ-jg-LuU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <state key="normal" title="School">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="schoolButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pCf-W9-U2V"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="0tL-We-AhF" firstAttribute="leading" secondItem="dlx-pU-fAT" secondAttribute="trailing" constant="40" id="8XC-90-k3Y"/>
+                                    <constraint firstItem="dlx-pU-fAT" firstAttribute="top" secondItem="4be-Ky-Grd" secondAttribute="top" id="9mF-6O-OI1"/>
+                                    <constraint firstItem="0tL-We-AhF" firstAttribute="top" secondItem="OOQ-mW-jw9" secondAttribute="top" constant="20" id="Aux-yM-oUY"/>
+                                    <constraint firstItem="dlx-pU-fAT" firstAttribute="top" secondItem="0tL-We-AhF" secondAttribute="top" id="dVb-Id-SNJ"/>
+                                    <constraint firstItem="4be-Ky-Grd" firstAttribute="leading" secondItem="0tL-We-AhF" secondAttribute="trailing" constant="40" id="iy7-sl-PZB"/>
+                                    <constraint firstAttribute="bottom" secondItem="0tL-We-AhF" secondAttribute="bottom" constant="20" id="lfQ-Aw-Vu2"/>
+                                    <constraint firstItem="0tL-We-AhF" firstAttribute="centerX" secondItem="OOQ-mW-jw9" secondAttribute="centerX" id="llM-lU-8wj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ODY-b4-pft" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="2b6-k1-Mjr"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ODY-b4-pft" secondAttribute="bottom" constant="69" id="C3G-OM-lmg"/>
+                            <constraint firstItem="OOQ-mW-jw9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="HZQ-jk-Bkz"/>
+                            <constraint firstAttribute="trailing" secondItem="OOQ-mW-jw9" secondAttribute="trailing" id="Jph-ys-xjJ"/>
+                            <constraint firstItem="ODY-b4-pft" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="Zbx-Fg-Klw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ODY-b4-pft" secondAttribute="trailing" constant="-16" id="lPm-3u-WMC"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="OOQ-mW-jw9" secondAttribute="bottom" id="tLF-0k-aRh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lokation" id="myh-mP-48v"/>
+                    <connections>
+                        <outlet property="mapView" destination="ODY-b4-pft" id="aU2-Qv-Neb"/>
+                        <segue destination="dCZ-Eq-Muc" kind="show" identifier="SHOW_DETAIL" id="NJ0-JJ-Xw1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="389"/>
+        </scene>
+        <!--Add Reminder View Controller-->
+        <scene sceneID="Yfk-vf-kCr">
+            <objects>
+                <viewController id="dCZ-Eq-Muc" customClass="AddReminderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ALP-ht-jHF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pgd-w9-APo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nUu-Q7-5fI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCC-fZ-nm6">
+                                <rect key="frame" x="283" y="327" width="34" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="dCZ-Eq-Muc" eventType="touchUpInside" id="6ZE-LL-qYN"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Reminder Here" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mfR-cV-0Ga">
+                                <rect key="frame" x="24" y="137" width="552" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminder:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMF-6s-qgi">
+                                <rect key="frame" x="261" y="102" width="78.5" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mfR-cV-0Ga" firstAttribute="top" secondItem="MMF-6s-qgi" secondAttribute="bottom" constant="15" id="8no-zu-znj"/>
+                            <constraint firstAttribute="centerX" secondItem="MMF-6s-qgi" secondAttribute="centerX" id="Hst-zx-5ii"/>
+                            <constraint firstAttribute="centerX" secondItem="mfR-cV-0Ga" secondAttribute="centerX" id="J2e-5k-42h"/>
+                            <constraint firstItem="mfR-cV-0Ga" firstAttribute="leading" secondItem="nUu-Q7-5fI" secondAttribute="leadingMargin" constant="8" id="iD5-ld-sob"/>
+                            <constraint firstAttribute="centerX" secondItem="sCC-fZ-nm6" secondAttribute="centerX" id="ikL-YA-7Qg"/>
+                            <constraint firstItem="sCC-fZ-nm6" firstAttribute="top" secondItem="mfR-cV-0Ga" secondAttribute="bottom" constant="160" id="uuD-vA-HPo"/>
+                            <constraint firstItem="MMF-6s-qgi" firstAttribute="top" secondItem="ALP-ht-jHF" secondAttribute="bottom" constant="38" id="wLd-LY-OiW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mfR-cV-0Ga" secondAttribute="trailing" constant="8" id="ykC-dc-7c5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="reminderTextField" destination="mfR-cV-0Ga" id="kWa-bH-uUV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NzI-R8-SZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="389"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nhg-Q5-sLL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EqB-RY-HdB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bl2-LP-4KS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="0Xh-av-kfp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XOC-el-WpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370" y="389"/>
+        </scene>
+    </scenes>
+</document>
