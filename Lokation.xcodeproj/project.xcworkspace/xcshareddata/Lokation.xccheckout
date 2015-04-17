@@ -10,31 +10,31 @@
 	<string>Lokation</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</key>
-		<string>https://github.com/ClintAkins/CF-iOS-ACC.git</string>
+		<key>7CE71BAFD5D741EF26BF6DEB961EFABCBB2FF72F</key>
+		<string>https://github.com/ClintAkins/Lokation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>4-Lokation/Lokation.xcodeproj</string>
+	<string>Lokation.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</key>
-		<string>../../..</string>
+		<key>7CE71BAFD5D741EF26BF6DEB961EFABCBB2FF72F</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ClintAkins/CF-iOS-ACC.git</string>
+	<string>https://github.com/ClintAkins/Lokation.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</string>
+	<string>7CE71BAFD5D741EF26BF6DEB961EFABCBB2FF72F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CD9231AC808C4C00A78E8D5CCB1452EDC91BB762</string>
+			<string>7CE71BAFD5D741EF26BF6DEB961EFABCBB2FF72F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CFAcc</string>
+			<string>Lokation</string>
 		</dict>
 	</array>
 </dict>

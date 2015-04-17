@@ -108,7 +108,7 @@
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
   NSLog(@"Did enter region");
   UILocalNotification *localNotification = [[UILocalNotification alloc] init];
-  localNotification.alertBody = @"Check your reminder!";
+  localNotification.alertBody = @"Check your reminder";
   localNotification.alertAction = @"Region action";
   [[UIApplication sharedApplication] presentLocalNotificationNow:localNotification];
 }
